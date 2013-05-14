@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title><%= map.name %></title>
+		<script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" /><![endif]-->
+		<style type="text/css">
+		html, body, #map { margin:0; padding: 0; height: 100%; background: #000; }
+		</style>
+	</head>
+	<body>
+
+		<div id="map"></div>
+		
+		<script>
+			var map, sw, ne, bounds, layer
+			sw = new L.LatLng(<%= map.bounds[:sw][:lat] %>, <%= map.bounds[:sw][:lng] %>)
+			ne = new L.LatLng(<%= map.bounds[:ne][:lat] %>, <%= map.bounds[:ne][:lng] %>)
+			bounds = new L.LatLngBounds(sw, ne)
+			layer  = L.tileLayer('http://localhost:3000/tiles/{z}/{x}/{y}', {
+				attribution: '<%= map.attribution %>, Version: <%= map.version %>'
+			})
+			map = L.map('map', {
+				zoom: <%= map.zoom[:default] %>,
+				minZoom: <%= map.zoom[:min] %>,
+				maxZoom: <%= map.zoom[:max] %>,
+				center: bounds.getCenter(),
+				maxBounds: bounds,
+				layers: [layer]
+			})
+		</script>
+
+		<!--script src="javascripts/polymaps.js"></script-->
+		<!--script>
+			var po = org.polymaps;
+
+      var map = po.map()
+        .container(document.getElementById("map").appendChild(po.svg("svg")))
+        .center({lat: <%= map.center[:lat] %>, lon: <%= map.center[:lng]%> })
+        .zoomRange([<%= map.zoom[:min] %>, <%= map.zoom[:max] %>])
+        .add(po.image().url(po.url("/tiles/{Z}/{X}/{Y}")) )
+        .add(po.interact())
+        .add(po.compass().pan("none").zoom("big").position('bottom-right'))
+		</script-->
+	</body>
+</html>
