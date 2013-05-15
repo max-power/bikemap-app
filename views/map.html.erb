@@ -32,18 +32,5 @@
 				layers: [layer]
 			})
 		</script>
-
-		<!--script src="javascripts/polymaps.js"></script-->
-		<!--script>
-			var po = org.polymaps;
-
-      var map = po.map()
-        .container(document.getElementById("map").appendChild(po.svg("svg")))
-        .center({lat: <%= map.center[:lat] %>, lon: <%= map.center[:lng]%> })
-        .zoomRange([<%= map.zoom[:min] %>, <%= map.zoom[:max] %>])
-        .add(po.image().url(po.url("/tiles/{Z}/{X}/{Y}")) )
-        .add(po.interact())
-        .add(po.compass().pan("none").zoom("big").position('bottom-right'))
-		</script-->
 	</body>
 </html>
