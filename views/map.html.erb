@@ -20,7 +20,7 @@
 			sw = new L.LatLng(<%= map.bounds[:sw][:lat] %>, <%= map.bounds[:sw][:lng] %>)
 			ne = new L.LatLng(<%= map.bounds[:ne][:lat] %>, <%= map.bounds[:ne][:lng] %>)
 			bounds = new L.LatLngBounds(sw, ne)
-			layer  = L.tileLayer('http://localhost:3000/tiles/{z}/{x}/{y}', {
+			layer  = L.tileLayer('/tiles/{z}/{x}/{y}', {
 				attribution: '<%= map.attribution %>, Version: <%= map.version %>'
 			})
 			map = L.map('map', {
