@@ -1,5 +1,5 @@
 require 'hobbit'
-require 'hobbit/render'
+require 'hobbit/contrib'
 require './lib/map'
 
 class App < Hobbit::Base
