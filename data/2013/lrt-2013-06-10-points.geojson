@@ -1,0 +1,120 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "FeatureCollection",
+			"properties": {
+				"id": "13-022629"
+			},
+			"features": [
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Pickup",
+						"address": {
+							"street": "Reichenberger Straße 124",
+							"zip": "10999",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [52.495988,13.432133]
+					}
+				},
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Drop",
+						"address": {
+							"street": "Lychener Straße 60",
+							"zip": "10437",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [52.544929,13.419269]
+					}
+				}
+			]	
+		},
+		{
+			"type": "FeatureCollection",
+			"properties": {
+				"id": "13-022630"
+			},
+			"features": [
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Pickup",
+						"address": {
+							"street": "Marienburger Straße 16",
+							"zip": "10405",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [52.533075,13.426556]
+					}
+				},
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Drop",
+						"address": {
+							"street": "Liselotte-Herrmann-Straße 5",
+							"zip": "10407",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [52.532540,13.433125]
+					}
+				}
+			]	
+		},
+		{
+			"type": "FeatureCollection",
+			"properties": {
+				"id": "13-022640"
+			},
+			"features": [
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Pickup",
+						"address": {
+							"street": "Strausberger Platz 10",
+							"zip": "10243",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [52.518101,13.429466]
+					}
+				},
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Drop",
+						"address": {
+							"street": "Köpenicker Straße 16",
+							"zip": "10997",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [52.505871,13.433938]
+					}
+				}
+			]	
+		}
+	]
+}
+
