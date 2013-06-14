@@ -4,6 +4,226 @@
 		{
 			"type": "FeatureCollection",
 			"properties": {
+				"id": "13-022496"
+			},
+			"features": [
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Pickup",
+						"address": {
+							"street": "Rudolfstraße 1-8",
+							"zip": "10245",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.451261,52.504737]
+					}
+				},
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Drop",
+						"address": {
+							"street": "Charitéstraße 3",
+							"zip": "10117",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.378805,52.522917]
+					}
+				}
+			]	
+		},
+		{
+			"type": "FeatureCollection",
+			"properties": {
+				"id": "13-022500"
+			},
+			"features": [
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Pickup",
+						"address": {
+							"street": "Boppstraße 7",
+							"zip": "10967",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.422139,52.490347]
+					}
+				},
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Drop",
+						"address": {
+							"street": "Seydelstraße 2-5",
+							"zip": "10117",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.402795,52.510353]
+					}
+				},
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Drop",
+						"address": {
+							"street": "Rudi-Dutschke-Straße 3",
+							"zip": "10969",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.396196,52.506988]
+					}
+				},
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Drop",
+						"address": {
+							"street": "Miraustraße 54",
+							"zip": "13509",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.309116,52.585324]
+					}
+				}
+			]	
+		},
+		{
+			"type": "FeatureCollection",
+			"properties": {
+				"id": "13-022506"
+			},
+			"features": [
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Pickup",
+						"address": {
+							"street": "Waldemarstraße 33a",
+							"zip": "10999",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.419607,52.504137]
+					}
+				},
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Drop",
+						"address": {
+							"street": "Neue Grünstraße 17",
+							"zip": "10179",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.406464,52.510082]
+					}
+				}
+			]	
+		},
+		{
+			"type": "FeatureCollection",
+			"properties": {
+				"id": "13-022552"
+			},
+			"features": [
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Pickup",
+						"address": {
+							"street": "Boysenstraße 42",
+							"zip": "10115",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.371702,52.537252]
+					}
+				},
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Drop",
+						"address": {
+							"street": "Kurfürstendamm 123",
+							"zip": "10711",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.286414,52.495746]
+					}
+				}
+			]	
+		},
+		{
+			"type": "FeatureCollection",
+			"properties": {
+				"id": "13-022587"
+			},
+			"features": [
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Pickup",
+						"address": {
+							"street": "Schillerstraße 59",
+							"zip": "10627",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.298367,52.509780]
+					}
+				},
+				{
+					"type": "Feature",
+					"properties": {
+						"type": "Drop",
+						"address": {
+							"street": "Leipziger Straße 63",
+							"zip": "10117",
+							"city": "Berlin"
+						}
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [13.394469,52.511272]
+					}
+				}
+			]	
+		},
+		{
+			"type": "FeatureCollection",
+			"properties": {
 				"id": "13-022629"
 			},
 			"features": [
