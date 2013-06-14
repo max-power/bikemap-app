@@ -2,7 +2,8 @@
 	"type": "Feature",
   "properties": {
 		"company": "Messenger",
-		"date": "2009-02-26"
+		"date": "2009-02-26",
+		"length": 90.3
   },
 	"geometry": {
     "type": "LineString",

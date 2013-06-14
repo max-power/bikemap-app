@@ -2,7 +2,8 @@
 	"type": "Feature",
   "properties": {
 		"company": "LRT",
-		"date": "2008-09-11"
+		"date": "2008-09-11",
+		"length": 88.2
   },
 	"geometry": {
     "type": "LineString",
